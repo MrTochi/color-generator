@@ -8,7 +8,7 @@ let colorArray=[`A`,`B`,`C`,`D`,`E`,`F`,0,1,2,3,4,5,6,7,8,9]
 
 const colorGenerator=()=>{
 
-    let merger1=`#`
+    let merger=`#`
     let merger2=`#`
     let merger3=`#`
 
@@ -25,8 +25,8 @@ const colorGenerator=()=>{
     merger3+=store
     }
     
-    box1.style.backgroundColor=merger1
-    box1.textContent=merger1
+    box1.style.backgroundColor=merger
+    box1.textContent=merger
     box2.style.backgroundColor=merger2
     box2.textContent=merger2
     box3.style.backgroundColor=merger3
